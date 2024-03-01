@@ -6,7 +6,7 @@ In this document, we explore the incorporation of security tools at various stag
 ## What is the difference between DevOps and DevSecOps ?
 DevOps improves the speed and efficiency of the software development lifecycle to build and deliver software faster and with better quality. DevSecOps focuses on reducing the risk of vulnerabilities in software by integrating security early in the development process
 
-![image](https://github.com/kcheth/Zomato-Clone-Secure-Deployment-with-DevSecOps-CI-CD/assets/106922418/7205c3b1-7aef-40e0-a545-0b1a893a01c9)
+![image](https://github.com/kcheth/Zomato-Clone-DevSecOps/assets/106922418/f67fbe02-21bc-49f9-a1ab-7f01bf247f9c)
 
 ### Table of contents
 1. Launch an Ubuntu(22.04) t2.large Instance
@@ -24,7 +24,7 @@ DevOps improves the speed and efficiency of the software development lifecycle t
 10. Terminate instances.
 11. Complete Pipeline Script
 
-![image](https://github.com/kcheth/Zomato-Clone-Secure-Deployment-with-DevSecOps-CI-CD/assets/106922418/6934d055-77da-4804-bff3-499924d94653)
+![image](https://github.com/kcheth/Zomato-Clone-DevSecOps/assets/106922418/b0205c3b-0363-4039-aa4c-d9f488901b8d)
 
 ## Step 1 :  Launch an Ubuntu 22.04 t2.large instance
 Initiate the launch of an AWS t2.large Instance, utilizing the Ubuntu image. Create a new key pair or leverage an existing one. Ensure the Security Group settings include enabling HTTP and HTTPS, allowing access to all ports (although it's advisable to restrict ports for security purposes, we'll open all ports for learning purposes).
